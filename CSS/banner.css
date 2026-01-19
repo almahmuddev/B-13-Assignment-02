@@ -1,0 +1,6 @@
+.banner {
+    background-image: url("../assets/hero-bg.png");
+    background-position: center ;
+    height: 70vh;
+    text-align: center;
+}

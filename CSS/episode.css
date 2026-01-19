@@ -1,0 +1,22 @@
+
+
+.episode {
+    margin: 0;
+    padding: 7rem 12rem;
+    background: #1A0B2E;
+    text-align: center;
+    /* display: flex; */
+}
+/* .episode-part-1 {
+    display: flex;
+} */
+.videos {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+.video-1{
+    width: 30%;
+    padding: 1rem .5rem;
+    border-radius: 25px;
+}

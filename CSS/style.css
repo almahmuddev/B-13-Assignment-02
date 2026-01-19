@@ -1,0 +1,32 @@
+
+
+:root {
+    margin: 0;
+    padding: 0;
+    font-size:17px;
+}
+body {
+    font-family: "Inter";
+}
+body h2{
+    font-size: 48px;
+    font-weight: 800;
+    color: #fff;
+}
+body h3 {
+    color: #00ff88;
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin: 0;
+}
+body h4{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 800;
+}
+body p {
+    color: #fff;
+    opacity: 75%;
+    line-height: 28px;
+}

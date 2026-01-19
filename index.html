@@ -8,12 +8,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <!-- styles connection -->
     <link rel="stylesheet" href="CSS/nav.css">
-    <link rel="stylesheet" href="CSS/banner.css">
+    <!-- <link rel="stylesheet" href="CSS/banner.css"> -->
     <link rel="stylesheet" href="CSS/about.css">
     <link rel="stylesheet" href="CSS/choose.css">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/episode.css">
-    <link rel="stylesheet" href="CSS/footer.css">
+    <!-- <link rel="stylesheet" href="CSS/footer.css"> -->
     <!-- styles connection ended -->
 
     <title>Assignment-2</title>
@@ -21,10 +21,11 @@
 
 <body>
     <nav class="nav">
-        <a href="#" class="logo">
-            <img src="./assets/TechWave.png" alt="Company logo">
-        </a>
-
+        <div class="logo-div">
+            <a href="techwave.com" class="logo">
+                <img src="./assets/TechWave.png" alt="Company logo">
+            </a>
+        </div>
         <ul class="nav-links">
             <li>
                 <a href="#about">About</a>
@@ -36,9 +37,11 @@
                 <a href="#host">Host</a>
             </li>
         </ul>
-
-        <a href="#subscribe" class="nav-btn">Subscribe <img src="./assets/right-arrow.png" alt="Arrow-icon">
-        </a>
+        <div class="btn-div">
+            <a href="#subscribe" class="nav-btn">Subscribe <img src="./assets/right-arrow.png" alt="Arrow-icon">
+            </a>
+            <a class="menu-btn" href="#"><img src="./assets/hamburger-menu.png" alt=""></a>
+        </div>
     </nav>
 
     <section class="banner">
@@ -54,18 +57,16 @@
     <section class="about">
         <div class="about-content">
             <h2>About The Podcast</h2>
-            <p>TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.
+            <p class="pera-1">TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.
                 We break down complex topics into digestible insights, explore productivity strategies that actually
                 work,
                 and share stories of personal growth from industry leaders.
             </p>
-            <span class="divided text">
-                Join thousands of young professionals and tech enthusiasts who start their day with TechWave.
-            </span>
+            <p class="pera-2">Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
         </div>
         <div class="about-counter">
             <div class="about-items">
-                <h3>150k+</h3>
+                <h3>150K+</h3>
                 <p>Monthly Listeners</p>
             </div>
             <div class="about-items">
@@ -73,7 +74,7 @@
                 <p>Episodes Published</p>
             </div>
             <div class="about-items">
-                <h3>4.9</h3>
+                <h3>4.9★</h3>
                 <p>Average Rating</p>
             </div>
             <div class="about-items">
@@ -126,9 +127,24 @@
         <div class="episode-part-1">
             <h2>Featured Episodes</h2>
             <div class="videos">
-                <div class="video-1">video-1</div>
-                <div class="video-1">video-2</div>
-                <div class="video-1">video-3</div>
+                <div class="video-1">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/muBBYZXYgoM?si=nPspXlU95_xZPtNZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <h4>The Future of AI in Everyday Life</h4>
+                    <p>Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
+                    <div class="clock"><img src="./assets/clock.png" alt="">110 min</div>
+                </div>
+                <div class="video-1">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ngUPIhogFy8?si=8j4MoGvozhXrgqtJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <h4>Building Better Habits for Remote Work</h4>
+                    <p>Practical strategies for staying productive and maintaining work-life balance in a remote environment.</p>
+                    <div class="clock"><img src="./assets/clock.png" alt="">35 min</div>
+                </div>
+                <div class="video-1">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/DU9D3CVtZxg?si=9ommo7PENqeGllA7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <h4>Career Growth in Tech: A Roadmap</h4>
+                    <p>Expert advice on navigating your tech career from junior developer to senior leadership roles.</p>
+                    <div class="clock"><img src="./assets/clock.png" alt="">51 min</div>
+                </div>
             </div>
         </div>
         <div class="episode-part-2">

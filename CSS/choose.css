@@ -1,0 +1,43 @@
+.choose {
+    background: #230e3d;
+    text-align: center;
+    padding: 7rem 12rem;
+    margin: 0;
+    /* gap: 25px; */
+}
+.container-1 {
+    display: flex;
+    /* width: 100%; */
+    gap: 25px;
+}
+.container-1div-1 {
+    flex: 42;
+    background: #35116563;
+    padding: 3rem 2.5rem;
+    text-align: start;
+    border-radius: 40px;
+    align-content: center;
+}
+.container-1div-2 {
+    flex: 58;
+    display: grid;
+    gap: 25px;
+}
+.part-1, .part-2, .div-1, .div-2 {
+    background: #35116563;
+    padding: 3rem 2.5rem;
+    text-align: start;
+    border-radius: 40px;
+}
+.container-2 {
+    margin-top: 25px;
+    display: flex;
+    gap: 25px;
+}
+.div-1 {
+    flex: 60;
+}
+.div-2{
+    flex: 40;
+    align-content: center;
+}
