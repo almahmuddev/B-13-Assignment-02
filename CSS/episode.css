@@ -5,18 +5,115 @@
     padding: 7rem 12rem;
     background: #1A0B2E;
     text-align: center;
-    /* display: flex; */
 }
-/* .episode-part-1 {
-    display: flex;
-} */
 .videos {
     display: flex;
-    gap: 20px;
+    gap: 18px;
+}
+.you-tube iframe{
+    width: 380px;
+    height: 214px;
+    border-radius: 25px 25px 0 0 ;
+}
+.video-1 {
+    background-color: #35116563;
+    border-radius: 25px;
+}
+.video-info {
+    padding: 1.25rem;
+    text-align: start;
+}
+.video-1 iframe {
     width: 100%;
 }
-.video-1{
-    width: 30%;
-    padding: 1rem .5rem;
-    border-radius: 25px;
+.video-1 h4 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 800;
+}
+.video-1 p {
+    margin: 0;
+    padding-top: .7rem;
+    font-size: 16px;
+}
+.clock{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 6px;
+    padding-top: .7rem;
+}
+.play-time{
+    color: #00FF88;
+}
+.host {
+    background-color: #35116563;
+    display: flex;
+    padding: 40px;
+    border-radius: 40px;
+    gap: 1.5rem;
+}
+.person {
+    align-items: center;
+}
+.person-description {
+    align-items: center;
+    text-align: start;
+}
+
+.person-description ul {
+    padding: 0;
+    display: flex;
+}
+
+.person-description li {
+    list-style-type: none;
+    margin-right: 1rem;
+}
+
+.person-description a {
+    padding: .9rem;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #533C72;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.person-description a img {
+    width: 65%;
+}
+.person-description a:hover {
+    background-color: #533C72;
+    border:1px solid transparent;
+    transition: 500ms;
+}
+
+.person-description h3 {
+    font-size: 32px;
+    font-weight: 800;
+    color: #fff;
+}
+
+/* responsiveness for mobile device */
+
+@media screen and (max-width: 576px) {
+    .episode {
+        padding: 1.25rem;
+    }
+    .host{
+        display: grid;
+    }
+    .person-description {
+        text-align: center;
+    }
+    .person-description ul {
+        justify-content: center;
+    }
+    .videos{
+        display: grid;
+    }
 }

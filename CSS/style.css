@@ -30,3 +30,18 @@ body p {
     opacity: 75%;
     line-height: 28px;
 }
+
+/* rsponsiveness for mobile device */
+
+@media screen and (max-width: 576px) {
+    body h2{
+        font-size: 32px;
+    }
+    body h4{
+        font-size: 20px;
+    }
+    body p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

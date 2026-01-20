@@ -41,3 +41,17 @@
     flex: 40;
     align-content: center;
 }
+
+/* responsiveness for mobile device */
+
+@media screen and (max-width: 576px) {
+    .choose {
+        padding: 2.5rem 1.25rem;
+    }
+    .container-1 {
+        display: grid;
+    }
+    .container-2 {
+        display: grid;
+    }
+}
