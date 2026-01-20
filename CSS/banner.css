@@ -1,6 +1,108 @@
+
+
 .banner {
     background-image: url("../assets/hero-bg.png");
-    background-position: center ;
-    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
     text-align: center;
+    color: #fff;
+}
+.banner-center {
+    position: relative;
+    width: 310px;
+    height: 310px;
+    margin: 0 auto 30px;
+}
+.hero-circle {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.hero-mic {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 95px;
+    transform: translate(-50%, -50%);
+}
+.badge {
+    position: absolute;
+    top: 15px;
+    right: 40px;
+    background: #22ff88;
+    color: #000;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 20px;
+}
+.banner-btns {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    margin-top: 24px;
+}
+.banner-btns a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 13px 23px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;    
+}
+.btn-1{
+    background: linear-gradient(230deg,
+            #7F00FF,
+            #E100FF,
+            #FF8A00 80%);
+    border: 1px solid #E100FF;
+    border-radius: 999px;
+}
+.btn-1:hover{
+    background: transparent;
+    transition: 1s;
+}
+.btn-2 {
+    border: 1px solid #00ff88;
+    color: #00ff88;
+    font-weight: 500;
+    border-radius: 999px;
+}
+.btn-2:hover {
+    color: #fff;
+    background-color: #00ff88;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    transition: 500ms;
+}
+
+
+/* responsiveness for mobile device */
+
+@media screen and (max-width: 576px) {
+    .banner {
+        padding: 80px 16px 0 16px;
+    }
+    .banner p {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .banner-center {
+        width: 175px;
+        height: 175px;
+    }
+    .hero-mic {
+        width: 55px;
+    }
+    .badge {
+        font-size: 11px;
+        padding: 3px 8px;
+        top: 9px;
+        right: 15px;
+    }
+    .banner-btns {
+        display: flex;    
+    }
 }

@@ -46,6 +46,9 @@
 .play-time{
     color: #00FF88;
 }
+.episode-part-2 h2 {
+    padding: 3rem 0 .5rem 0;
+}
 .host {
     background-color: #35116563;
     display: flex;

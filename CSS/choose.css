@@ -13,7 +13,7 @@
 .container-1div-1 {
     flex: 42;
     background: #35116563;
-    padding: 3rem 2.5rem;
+    padding: 2.5rem 2rem;
     text-align: start;
     border-radius: 40px;
     align-content: center;
@@ -25,7 +25,7 @@
 }
 .part-1, .part-2, .div-1, .div-2 {
     background: #35116563;
-    padding: 3rem 2.5rem;
+    padding: 2.5rem 2rem;
     text-align: start;
     border-radius: 40px;
 }
@@ -53,5 +53,8 @@
     }
     .container-2 {
         display: grid;
+    }
+    .part-1, .part-2, .div-1, .div-2, .container-1div-1 {
+        padding: 1.5rem 1rem;
     }
 }

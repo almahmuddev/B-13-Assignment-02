@@ -8,6 +8,11 @@
 body {
     font-family: "Inter";
 }
+body h1 {
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
 body h2{
     font-size: 48px;
     font-weight: 800;
@@ -34,6 +39,9 @@ body p {
 /* rsponsiveness for mobile device */
 
 @media screen and (max-width: 576px) {
+    body h1{
+        font-size: 40px;
+    }
     body h2{
         font-size: 32px;
     }

@@ -5,7 +5,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: #1a0b2e;
-    border-bottom: 1px solid #412567;
+    border-bottom: 1px solid #35116563;
     display: flex;
     padding: 1.5rem 12rem;
 }
@@ -19,6 +19,7 @@
 }
 .nav-links a {
     font-size: 17px;
+    opacity: 85%;
     font-weight: 600;
     line-height: 120%;
     text-decoration: none;
