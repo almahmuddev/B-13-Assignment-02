@@ -2,10 +2,13 @@
     padding: 6rem 12rem;
     background-image: url("../assets/footer-bg.png");
     background-repeat: no-repeat;
-    /* background-position: top center; */
+    background-position: top center;
     background-size: cover;
     text-align: center;
     justify-content: center;
+}
+.img-logo {
+    width: 35%;
 }
 .podcast-icons{
     width: 60%;
@@ -14,7 +17,6 @@
     list-style: none;
     display: flex;
     justify-content: space-between;
-    /* gap: 1.5rem; */
 }
 .podcast-icons a {
     text-decoration: none;
@@ -31,16 +33,19 @@
     object-fit: contain;
 }
 .footer p{
-    padding-top: 1rem;
+    padding: 1rem 0 0 0;
 }
 
 /* responsiveness for mobile device */
 
 @media screen and (max-width: 576px) {
     .footer {
-        padding: 2.5rem 1.25rem;
+        padding: 2.5rem 1.25rem 2rem 1.25rem;
     }
     .podcast-icons {
+        width: 85%;
+        padding-top: 1.5rem ;
+        gap: 1rem;
         margin: 0 auto;
         display: grid;
         grid-template-columns: repeat(2, 1fr);

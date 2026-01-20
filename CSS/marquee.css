@@ -1,0 +1,32 @@
+
+
+.the-bloody-marque{
+    padding: 3rem 1.5rem;
+    background: #1A0B2E;
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #00ff88;
+    text-shadow:0 0 1px #c25151;
+}
+.marquee-text{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #682fb2;
+}
+.color{
+    color: #ab307283;
+}
+
+/* responsiveness for mobile device */
+
+@media screen and (max-width:576px) {
+    .the-bloody-marque{
+        padding: 2rem 1.25rem;
+        font-size: 1rem;
+
+    }
+    .marquee-text{
+        font-size: 1.25rem;
+        font-weight: 700;
+    }
+}

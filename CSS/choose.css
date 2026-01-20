@@ -55,6 +55,6 @@
         display: grid;
     }
     .part-1, .part-2, .div-1, .div-2, .container-1div-1 {
-        padding: 1.5rem 1rem;
+        padding: 1.5rem 1.25rem;
     }
 }

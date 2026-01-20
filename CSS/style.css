@@ -36,14 +36,14 @@ body p {
     line-height: 28px;
 }
 
-/* rsponsiveness for mobile device */
+/* responsiveness for mobile device */
 
 @media screen and (max-width: 576px) {
     body h1{
-        font-size: 40px;
+        font-size: 38px;
     }
     body h2{
-        font-size: 32px;
+        font-size: 26px;
     }
     body h4{
         font-size: 20px;
